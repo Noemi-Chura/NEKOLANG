@@ -23,7 +23,15 @@ El programa pedirá el nombre del archivo txt donde estará el código fuente en
 ```
 Ejemplo de entrada:
 ```bash
-test.txt
+valido.txt
 ````
 No te olvides de siempre incluir la extensión .txt
-
+## SALIDA GENERADA
+Al ejecutar el analizador, se generan los siguientes archivos:
+- tokens.txt: Lista de tokens detectados con tipo, lexema y número de línea.
+- simbolos.txt: Tabla de símbolos con identificadores declarados, tipo, valor, línea y dirección.
+- errores.txt: Errores sintácticos encontrados.
+## CÓDIGOS DE PRUEBA
+Se incluye una carpeta con archivos de prueba:
+- valido.txt : código fuente sin errores.
+- invalido.txt : código fuente con errores sintácticos.
