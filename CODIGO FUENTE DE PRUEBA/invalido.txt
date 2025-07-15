@@ -1,0 +1,10 @@
+voido main(){
+    nyaint contador = /;
+
+    loopie(contador < 5){
+        meowt("Hola mundo!")
+        contador = contador + 1;
+    }
+    
+    retu 0;
+}
